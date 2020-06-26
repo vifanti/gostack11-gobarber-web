@@ -243,9 +243,9 @@ const Dashboard: React.FC = () => {
           <DayPicker
             weekdaysShort={['D', 'S', 'T', 'Q', 'Q', 'S', 'S']}
             fromMonth={new Date()}
-            disabledDays={[{ daysOfWeek: [0, 6] }, ...disabledDays]}
+            disabledDays={[{ daysOfWeek: [1] }, ...disabledDays]}
             modifiers={{
-              available: { daysOfWeek: [1, 2, 3, 4, 5] },
+              available: { daysOfWeek: [0, 2, 3, 4, 5, 6] },
             }}
             onMonthChange={handleMonthChange}
             selectedDays={selectedDate}
