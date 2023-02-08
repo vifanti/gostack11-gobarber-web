@@ -74,6 +74,8 @@ export const AvatarInput = styled.div`
     width: 186px;
     height: 186px;
     border-radius: 50%;
+
+    border-top: 1px solid black;
   }
 
   label {

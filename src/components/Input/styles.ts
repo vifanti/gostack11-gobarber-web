@@ -23,11 +23,11 @@ export const Container = styled.div<ContainerProps>`
   & + div {
     margin-top: 8px;
   }
-    ${(props) =>
-      props.isErrored &&
-      css`
-        border-color: #c53030;
-      `}
+  ${(props) =>
+    props.isErrored &&
+    css`
+      border-color: #c53030;
+    `}
 
   ${(props) =>
     props.isFocused &&
